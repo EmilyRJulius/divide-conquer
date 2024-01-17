@@ -1,4 +1,4 @@
-function countZeroes() {
+function countZeroes(arr) {
     let firstZero = findFirst(arr)
     if (firstZero === -1) return 0;
   
